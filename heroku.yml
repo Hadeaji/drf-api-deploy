@@ -4,4 +4,4 @@ build:
 release:
   image: web
 run:
-  web: gunicorn post_permission.wsgi
+  web: gunicorn post_permissions.wsgi
